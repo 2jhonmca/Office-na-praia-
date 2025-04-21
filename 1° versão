@@ -1,1 +1,101 @@
-
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Office de Praia</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #e6f2f8;
+      color: #333;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      background: linear-gradient(to right, #00b4d8, #0077b6);
+      color: white;
+      padding: 40px 20px 30px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 18px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .card h2 {
+      color: #023e8a;
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+    .card p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .image-text-block {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .image-text-block img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 2px solid #0077b6;
+    }
+    .cta-button {
+      background: #0077b6;
+      color: white;
+      padding: 12px 25px;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .cta-button:hover {
+      background: #023e8a;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Office de Praia</h1>
+    <p>Conheça o Rio de Janeiro com emoção, fotografia e história!</p>
+  </header>  <div class="card">
+    <div class="image-text-block">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Arpoador_-_Rio_de_Janeiro.jpg/800px-Arpoador_-_Rio_de_Janeiro.jpg" alt="Praia do Arpoador">
+      <div>
+        <h2>Praia do Arpoador</h2>
+        <button class="cta-button">Comece o Passeio</button>
+      </div>
+    </div>
+  </div>  <div class="card">
+    <h2>Parte 1 - Ensaio Fotográfico no Arpoador</h2>
+    <p>Fotografias ao nascer e pôr do sol, molduras artesanais feitas na hora.</p>
+    <div class="image-text-block">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Sunset_at_Arpoador.jpg/800px-Sunset_at_Arpoador.jpg" alt="Ensaio no Arpoador">
+      <span>Ensaio fotográfico no Arpoador</span>
+    </div>
+  </div>  <div class="card">
+    <h2>Parte 2 - Passeio de Moto pelas Praias</h2>
+    <p>Leme, Arpoador, Vidigal, São Conrado, Praia dos Amores.</p>
+  </div>
+</body>
+</html>
